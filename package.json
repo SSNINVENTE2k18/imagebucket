@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "list":" s3cmd --access_key=AKIAJTFIO6HPZLM3K6VQ --secret_key=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 sync bucket s3://images.ssninvente.com/"
+    "list": " s3cmd --access_key=AKIAJTFIO6HPZLM3K6VQ --secret_key=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 sync bucket s3://images.ssninvente.com/"
   },
   "repository": {
     "type": "git",
