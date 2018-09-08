@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "pushs3":"aws s3 sync bucket/ s3://images.ssninvente.com --profile invente",
+    "pulls3":"aws s3 sync s3://images.ssninvente.com bucket/ --profile invente"
+
   },
   "repository": {
     "type": "git",
